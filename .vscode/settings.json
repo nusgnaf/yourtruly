@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+        "*.erb": "erb"
+    },
+    "[erb]": {
+        "editor.defaultFormatter": "aliariff.vscode-erb-beautify"
+    },
+    "[ruby]": {
+        "editor.tabSize": 2
+    },
+    "[html]": {
+        "editor.defaultFormatter": "aliariff.vscode-erb-beautify"
+    },
+    "editor.formatOnSave": true,
+    "solargraph.autoformat": true,
+    "solargraph.diagnostics": true,
+    "emmet.includeLanguages": {
+        "erb": "html"
+    },
+    "emmet.showAbbreviationSuggestions": true,
+    "emmet.showSuggestionsAsSnippets": true
+}
