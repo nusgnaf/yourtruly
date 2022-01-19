@@ -1,5 +1,6 @@
 <%= form_with url: 'upload' do |f| %>
   <%= f.label :homework, "请选择作业压缩包" %>
+  <br />
   <%= f.file_field :homework %>
   <%= f.submit "上传作业" %>
 <% end %>

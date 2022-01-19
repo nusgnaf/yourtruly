@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
-  root 'intro#index'
-  resources :students
+  get 'welcome/landing'
+  root 'welcome#landing'
+  # resources :students
   get 'intro/index'
   get 'intro/backdoor'
   post 'intro/check'
