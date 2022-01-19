@@ -1,0 +1,11 @@
+<h1>谢谢大家，久等了</h1>
+<% unless session[:valid?] %>
+  <%= render 'check' %>
+<% else %>
+  <% if session[:submitted?] %>
+    <%= render 'waiting' %>
+  <% else %>
+    <%= render 'uploadbox' %>
+  <% end %>
+<% end %>
+<%= session.to_h %>

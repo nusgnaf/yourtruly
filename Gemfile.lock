@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/anamba/active_storage_drag_and_drop.git
+  revision: a458f1ecf2682856c86a37ad54a64a60f5d2f616
+  branch: rails7
+  specs:
+    active_storage_drag_and_drop (1.1.0)
+      rack (>= 2)
+      rails (>= 7.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -54,6 +63,7 @@ GEM
     activerecord (7.0.1)
       activemodel (= 7.0.1)
       activesupport (= 7.0.1)
+    activerecord_reset_pk_sequence (0.3.0)
     activestorage (7.0.1)
       actionpack (= 7.0.1)
       activejob (= 7.0.1)
@@ -214,6 +224,8 @@ PLATFORMS
   x86_64-darwin-21
 
 DEPENDENCIES
+  active_storage_drag_and_drop!
+  activerecord_reset_pk_sequence (~> 0.3.0)
   bootsnap
   capybara
   debug

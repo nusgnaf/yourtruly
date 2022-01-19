@@ -10,6 +10,7 @@
     },
     "[html]": {
         "editor.defaultFormatter": "aliariff.vscode-erb-beautify"
+        "editor.tabSize": 2
     },
     "editor.formatOnSave": true,
     "solargraph.autoformat": true,
